@@ -8,10 +8,27 @@ PAASS and poll2 acquisition codes for Pixie-16: https://github.com/UWCNuclear/pa
 
 ISOLDE Decay Station code to convert the raw data produced by the Pixie-16 digitizers into ROOT format : https://github.com/rlica/xia4ids
 
-# How to create histograms and matrices with xia4MANDELA
+# How to set up xia4MANDELA
 
-To download xia4MANDELA, paste:
+To download xia4MANDELA, paste the following line in your terminal:
 
     git clone https://github.com/UWCNuclear/xia4MANDELA.git
 
+Open your .bashrc file (gedit ~/.bashrc) and add the following line before saving and closing the file:
+
+   PATH=$PATH:~/xia4MANDELA/bin/
+
+Paste the following command in the terminal:
+
+   source ~/.bashrc
+
+To compile, go to ~/xia4MANDELA/ and type:
+
+   make
+   
+# How to create histograms and matrices with xia4MANDELA
+
+To run, type "xia4MANDELA" followed by the name of your config file and calibration file [optional] :
+
+   xia4MANDELA config_file calibrationFile
 
