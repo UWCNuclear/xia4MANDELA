@@ -50,11 +50,11 @@ POLL2 will then display the run number, e.g. "Run 1 started on Monday March 14 1
 
     xia4ids config_file calibrationFile
     
-Otherwise, you can run the Autosort_root script by giving it the run number to sort (first, give it permission to excute with "chmod +x Autosort_root") : 
+You can also run the Autosort_root script by giving it the run number to sort (first, give it permission to excute with "chmod +x Autosort_root") : 
 
     ./Autosort_root run_number
 
-**Step 3.**	To look at histograms and fit peaks with GRSISORT [see https://github.com/UWCNuclear/UbuntuSetUp]:
+**Step 3.**	To look at histograms and fit peaks with GRSISort [see https://github.com/UWCNuclear/UbuntuSetUp]:
 
     grsisort -l filename.root
     
