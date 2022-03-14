@@ -28,7 +28,13 @@ ISOLDE Decay Station code to convert the raw data produced by the Pixie-16 digit
    
 # How to create histograms and matrices with xia4MANDELA
 
-To run, type "xia4MANDELA" followed by the name of your config file and calibration file [optional] :
+**Step 1.**	To run, type "xia4MANDELA" followed by the name of your config file and calibration file [optional] :
 
     xia4MANDELA config_file calibrationFile
 
+**Step 2.**	To look at histograms and fit peaks with GRSISORT [see https://github.com/UWCNuclear/UbuntuSetUp]:
+
+    grsisort -l filename.root
+    
+    
+ 
