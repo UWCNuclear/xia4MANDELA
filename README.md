@@ -16,19 +16,19 @@ To download xia4MANDELA, paste the following line in your terminal:
 
 Open your .bashrc file (gedit ~/.bashrc) and add the following line before saving and closing the file:
 
-   PATH=$PATH:~/xia4MANDELA/bin/
+    PATH=$PATH:~/xia4MANDELA/bin/
 
 Paste the following command in the terminal:
 
-   source ~/.bashrc
+    source ~/.bashrc
 
 To compile, go to ~/xia4MANDELA/ and type:
 
-   make
+    make
    
 # How to create histograms and matrices with xia4MANDELA
 
 To run, type "xia4MANDELA" followed by the name of your config file and calibration file [optional] :
 
-   xia4MANDELA config_file calibrationFile
+    xia4MANDELA config_file calibrationFile
 
