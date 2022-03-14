@@ -36,7 +36,7 @@ ISOLDE Decay Station code to convert the raw data produced by the Pixie-16 digit
 
     xia4ids config_file calibrationFile
     
-Otherwise, you can run the Autosort_root script by giving it the run number: 
+Otherwise, you can run the Autosort_root script by giving it the run number to sort (first, give it permission to excute with "chmod +x Autosort_root") : 
 
     ./Autosort_root run_number
 
