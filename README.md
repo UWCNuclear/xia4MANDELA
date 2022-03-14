@@ -10,19 +10,19 @@ ISOLDE Decay Station code to convert the raw data produced by the Pixie-16 digit
 
 # How to set up xia4MANDELA
 
-To download xia4MANDELA, paste the following line in your terminal:
+**Step 1.**	To download xia4MANDELA, paste the following line in your terminal:
 
     git clone https://github.com/UWCNuclear/xia4MANDELA.git
 
-Open your .bashrc file (gedit ~/.bashrc) and add the following line before saving and closing the file:
+**Step 2.**	Open your .bashrc file (gedit ~/.bashrc) and add the following line before saving and closing the file:
 
     PATH=$PATH:~/xia4MANDELA/bin/
 
-Paste the following command in the terminal:
+**Step 3.**	Paste the following command in the terminal:
 
     source ~/.bashrc
 
-To compile, go to ~/xia4MANDELA/ and type:
+**Step 4.**	To compile, go to ~/xia4MANDELA/ and type:
 
     make
    
