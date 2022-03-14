@@ -8,29 +8,29 @@ PAASS and poll2 acquisition codes for Pixie-16: https://github.com/UWCNuclear/pa
 
 ISOLDE Decay Station code to convert the raw data produced by the Pixie-16 digitizers into ROOT format : https://github.com/rlica/xia4ids
 
-# How to set up xia4mandela
+# How to set up xia4ids at MANDELA
 
-**Step 1.**	To download xia4mandela, paste the following line in your terminal:
+**Step 1.**	To download xia4ids, paste the following line in your terminal:
 
-    git clone https://github.com/UWCNuclear/xia4mandela.git
-
+    git clone https://github.com/rlica/xia4ids
+    
 **Step 2.**	Open your .bashrc file (gedit ~/.bashrc) and add the following line before saving and closing the file:
 
-    PATH=$PATH:~/xia4mandela/bin/
+    PATH=$PATH:~/xia4ids/bin/
 
 **Step 3.**	Paste the following command in the terminal:
 
     source ~/.bashrc
 
-**Step 4.**	To compile, go to ~/xia4mandela/ and type:
+**Step 4.**	To compile, go to ~/xia4ids/ and type:
 
     make
    
-# How to create histograms and matrices with xia4mandela
+# How to create histograms and matrices with xia4ids at MANDELA
 
-**Step 1.**	To run, type "xia4mandela" followed by the name of your config file and calibration file [optional] :
+**Step 1.**	To run, type "xia4ids" followed by the name of your config file and calibration file [optional] :
 
-    xia4mandela config_file calibrationFile
+    xia4ids config_file calibrationFile
 
 **Step 2.**	To look at histograms and fit peaks with GRSISORT [see https://github.com/UWCNuclear/UbuntuSetUp]:
 
