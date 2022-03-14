@@ -10,12 +10,17 @@ ISOLDE Decay Station code to convert the raw data produced by the Pixie-16 digit
 
 #  How to get .ldf file
 
-**Step 1.** log in to poll2, in the poll2 terminal at the prompt POLL2 $ type "run"  >>> e.g.,POLL2 $ run
+**Step 1.** Log in to POLL2?. At the prompt in the terminal, type:
 
-POLL2 will then display the run number, e.g., "Run 1 started on Monday March 14 12:00:00 2022
+   "run"  >>> 
+   
+e.g. POLL2 $ run
+
+POLL2 will then display the run number, e.g. "Run 1 started on Monday March 14 12:00:00 2022"
 
 **Step 2.** To stop the run, enter the command
-POLL2$ stop
+
+    POLL2$ stop
       
 # How to set up xia4ids at MANDELA
 
