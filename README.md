@@ -8,15 +8,15 @@ PAASS and poll2 acquisition codes for Pixie-16: https://github.com/UWCNuclear/pa
 
 ISOLDE Decay Station code to convert the raw data produced by the Pixie-16 digitizers into ROOT format : https://github.com/rlica/xia4ids
 
-#  How to acquire data with POLL2 (.ldf file)
+#  How to acquire data with POLL2 (.ldf files)
 
 **Step 1.** To start POLL2, navigate to the "acq" directory and type:
 
-   poll2
+    poll2
    
 **Step 2.** To start the acqusition, type in the terminal:
 
-   run
+    run
 
 POLL2 will then display the run number, e.g. "Run 1 started on Monday March 14 12:00:00 2022"
 
