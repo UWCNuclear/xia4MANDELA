@@ -28,7 +28,7 @@ POLL2 will then display the run number, e.g. "Run 1 started on Monday March 14 1
     
 The .ldf file is created in the same directory.    
       
-# How to set up xia4ids
+# How to install xia4ids
 
 **Step 1.**	To download xia4ids, paste the following line in your terminal:
 
