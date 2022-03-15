@@ -30,17 +30,18 @@ Fold       1
 17		1		1		0   	0		0		0		0		Spare
 
 
--------
+---
 Correlations
 0	0	0	1
 0	1	0	0
-
+|firstMod	|firstCh	|secondCh	|secondCh
 
 --- Comments below ---
 
 !!! Detector Index and Type numbering starts from 1 !!!
 !!! Module and Channel numbering starts from 0      !!!
-!!! Readme: https://github.com/rlica/xia4ids		!!!
+!!! To run Correlations, remove the --- above Correlations !!!
+!!! Readme: https://github.com/rlica/xia4ids	   !!!
 
 LEGEND
 -----------------------------
