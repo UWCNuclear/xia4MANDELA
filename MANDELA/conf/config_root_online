@@ -1,0 +1,55 @@
+runName    ./raw/run_
+timegate   500
+cs-tac     0
+pair-tac   0
+reftype    0
+flagtype   0
+ref_unit   1 ms
+run_unit   1 s
+Format     root
+Fold       1
+
+
+|Index	|Type	|Mod	|Chan	|Delay	|Link	|Start	|Stop	|Comment
+1		1		0		0   	0		0		0		0		Chan 0
+2		1		0		1   	0		0		0		0		Chan 1
+3		1		0		2   	0		0		0		0		Chan 2
+4		1		0		3   	0		0		0		0		Chan 3
+5		1		0		4   	0		0		0		0		Chan 4
+6		1		0		5   	0		0		0		0		Chan 5
+7		1		0		6   	0		0		0		0		Chan 6
+8		1		0		7   	0		0		0		0		Chan 7
+9		1		0		8   	0		0		0		0		Chan 8
+10		1		0		9   	0		0		0		0		Chan 9
+11		1		0		10   	0		0		0		0		Chan 10
+12		1		0		11   	0		0		0		0		Chan 11
+13		1		0		12   	0		0		0		0		Chan 12
+14		1		0		13   	0		0		0		0		Chan 13
+15		1		0		14   	0		0		0		0		Chan 14
+16		1		0		15   	0		0		0		0		Chan 15
+17		1		1		0   	0		0		0		0		Spare
+
+
+-------
+Correlations
+0	0	0	1
+0	1	0	0
+
+
+--- Comments below ---
+
+!!! Detector Index and Type numbering starts from 1 !!!
+!!! Module and Channel numbering starts from 0      !!!
+!!! Readme: https://github.com/rlica/xia4ids		!!!
+
+LEGEND
+-----------------------------
+Type 
+1=Clover Crystal
+2=LaBr
+3=Beta
+4=Pair TAC (La-La)
+5=Common start TAC (Beta-La)
+6=Proton T1
+------------------------------
+

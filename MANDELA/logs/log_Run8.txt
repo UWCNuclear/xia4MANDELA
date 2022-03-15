@@ -1,0 +1,24 @@
+RUN #8 
+Recorded in:		 276.72 s 
+Bad/Good data chunks:	 0/27762 
+Raw/Good signals:	 1973913/1951071
+
+Module	Channel        Good      Out-of-range   Pile-up   Rate(cps)	Comment
+
+     0	      0	     1007726         6530          367    3641.66	Chan
+     0	      1	      943345        13138         2807    3409.01	Chan
+     0	      2	           0            0            0       0.00	Chan
+     0	      3	           0            0            0       0.00	Chan
+     0	      4	           0            0            0       0.00	Chan
+     0	      5	           0            0            0       0.00	Chan
+     0	      6	           0            0            0       0.00	Chan
+     0	      7	           0            0            0       0.00	Chan
+     0	      8	           0            0            0       0.00	Chan
+     0	      9	           0            0            0       0.00	Chan
+     0	     10	           0            0            0       0.00	Chan
+     0	     11	           0            0            0       0.00	Chan
+     0	     12	           0            0            0       0.00	Chan
+     0	     13	           0            0            0       0.00	Chan
+     0	     14	           0            0            0       0.00	Chan
+     0	     15	           0            0            0       0.00	Chan
+     1	      0	           0            0            0       0.00	Spare
