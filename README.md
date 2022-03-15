@@ -10,23 +10,23 @@ ISOLDE Decay Station code to convert the raw data produced by the Pixie-16 digit
 
 #  How to acquire data with POLL2 (.ldf files)
 
-Where is the parameter file in the directories? Upload required files here.
+**Step 1.** Place the parameter file (example attached above) in the "acq" directory.
 
-**Step 1.** To start POLL2, navigate to the "acq" directory and type:
+**Step 2.** To start POLL2, navigate to the "acq" directory and type:
 
     poll2
    
-**Step 2.** To start the acqusition, type in the terminal:
+**Step 3.** To start the acqusition, type in the terminal:
 
     run
 
 POLL2 will then display the run number, e.g. "Run 1 started on Monday March 14 12:00:00 2022"
 
-**Step 3.** To stop the run, enter the command:
+**Step 4.** To stop the run, enter the command:
 
     stop
     
-Where is the .ldf file created?    
+The .ldf file is created in the same directory.    
       
 # How to set up xia4ids at MANDELA
 
@@ -48,7 +48,7 @@ Where is the .ldf file created?
    
 # How to create histograms and matrices with xia4ids at MANDELA
 
-**Step 1.** Edit the calibration and configuration files to your setup configuration.
+**Step 1.** Edit the calibration and configuration files to your setup configuration (files attached above).
 
 **Step 2.**	To run, type "xia4ids" followed by the name of your config file and calibration file [optional] :
 
