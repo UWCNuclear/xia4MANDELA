@@ -10,7 +10,7 @@ ISOLDE Decay Station code to convert the raw data produced by the Pixie-16 digit
 
 #  How to acquire data with POLL2 (.ldf files)
 
-**Step 1.** Place the parameter file (example attached above) in the "acq" directory.
+**Step 1.** Place the .set parameter file (example attached above) in the "acq" directory.
 
 **Step 2.** To start POLL2, navigate to the "acq" directory and type:
 
@@ -46,7 +46,7 @@ The .ldf file is created in the same directory.
 
     make
    
-# How to create histograms and matrices with xia4ids at MANDELA
+# How to create histograms with xia4ids at MANDELA
 
 **Step 1.** Edit the calibration and configuration files to your setup configuration (files attached above).
 
