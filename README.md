@@ -48,9 +48,15 @@ The .ldf file is created in the same directory.
    
 # How to create histograms with xia4ids at MANDELA
 
-**Step 1.** Edit the calibration and configuration files to your setup configuration (files attached above).
+**Step 1.** To download the sample calibration and configuration files for MANDELA, paste the following line in your terminal:
 
-**Step 2.**	To run, type "xia4ids" followed by the name of your config file and calibration file [optional] :
+    git clone https://github.com/UWCNuclear/xia4mandela
+
+**Step 2.**	Move your .ldf file to MANDELA/raw.
+
+**Step 3.**	Edit the calibration file in MANDELA/cal and the configuration file in MANDELA/conf to your setup configuration.
+
+**Step 4.**	To run, type "xia4ids" followed by the name of your config file and calibration file [optional] :
 
     xia4ids config_file calibrationFile
     
@@ -58,9 +64,9 @@ You can also run the Autosort_root script by giving it the run number to sort (f
 
     ./Autosort_root run_number
 
-**Step 3.**	To look at histograms and fit peaks with GRSISort [see https://github.com/UWCNuclear/UbuntuSetUp]:
+**Step 5.**	To look at histograms and fit peaks with GRSISort [see https://github.com/UWCNuclear/UbuntuSetUp]:
 
-    grsisort -l filename.root
+    grsisort -l RunXXX.root
     
 
 ***Notes:*** Singles histograms are defined in xia4ids/inc/define_root.hh and filled in xia4ids/inc/read_ldf.hh
