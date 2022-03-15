@@ -10,6 +10,8 @@ ISOLDE Decay Station code to convert the raw data produced by the Pixie-16 digit
 
 #  How to acquire data with POLL2 (.ldf files)
 
+Where is the parameter file in the directories? Upload required files here.
+
 **Step 1.** To start POLL2, navigate to the "acq" directory and type:
 
     poll2
@@ -23,6 +25,8 @@ POLL2 will then display the run number, e.g. "Run 1 started on Monday March 14 1
 **Step 3.** To stop the run, enter the command:
 
     stop
+    
+Where is the .ldf file created?    
       
 # How to set up xia4ids at MANDELA
 
