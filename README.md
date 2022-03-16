@@ -52,9 +52,10 @@ The .ldf file is created in the same directory.
 
     git clone https://github.com/UWCNuclear/xia4mandela
 
-**Step 2.**	Create a "raw" directory and move your .ldf file to the raw directory:
+**Step 2.**	Move to the xia4mandela directory and create a "raw" directory and copy your .ldf file to the raw directory:
 
-    mkdir ~/xia4mandela/raw
+    cd xia4mandela
+    mkdir raw
 
 **Step 3.**	Edit the calibration file in "cal" and the configuration file in "conf" to your setup configuration.
 
