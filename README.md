@@ -54,11 +54,11 @@ The .ldf file is created in the same directory.
 
 **Step 2.**	Create a "raw" directory and move your .ldf file to the raw directory:
 
-    mkdir ~/xia4MANDELA/raw
+    mkdir ~/xia4mandela/raw
 
 **Step 3.**	Edit the calibration file in "cal" and the configuration file in "conf" to your setup configuration.
 
-**Step 4.**	To run, type "xia4ids" followed by the name of your config file and calibration file [optional] :
+**Step 4.**	To run, go to the xia4mandela directory and type "xia4ids" followed by the name of your config file and calibration file [optional] :
 
     xia4ids config_file calibrationFile
     
