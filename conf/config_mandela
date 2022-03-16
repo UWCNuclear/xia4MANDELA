@@ -4,8 +4,8 @@ cs-tac     0
 pair-tac   0
 reftype    0
 flagtype   0
-ref_unit   1 ms
-run_unit   1 s
+ref_unit   1 us
+run_unit   1 us
 Format     root
 Fold       1
 
@@ -27,7 +27,7 @@ Fold       1
 14		1		0		13   	0		0		0		0		Chan 13
 15		1		0		14   	0		0		0		0		Chan 14
 16		1		0		15   	0		0		0		0		Chan 15
-17		1		1		0   	0		0		0		0		Spare
+17		2		1		0   	0		0		0		0		Spare
 
 
 ---
