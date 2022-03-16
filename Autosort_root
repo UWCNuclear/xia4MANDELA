@@ -12,7 +12,7 @@ printf -v RUN_NUMBER "%03d" $1
 echo $RUN_NUMBER
 
 
-xia4ids conf/config_root_online cal/first.cal <<echo
+xia4ids conf/config_mandela cal/first.cal <<echo
 $RUN_NUMBER
 $RUN_NUMBER
 echo
