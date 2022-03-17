@@ -61,13 +61,13 @@ The .ldf file is created in the same directory.
 
 **Step 3.**	Edit the calibration file in "cal" and the configuration file in "conf" to your setup configuration.
 
-**Step 4.**	To run, go to the xia4mandela directory and type "xia4ids" followed by the name of your config file and calibration file [optional] :
-
-    xia4ids conf/config_mandela cal/first.cal
-    
-You can also run the Autosort_root script by giving it the run number to sort (first, give it permission to excute with "chmod +x Autosort_root") : 
+**Step 4.**	You can run the Autosort_root script in the xia4mandela directory by giving it the run number to sort (first, give it permission to excute with "chmod +x Autosort_root") : 
 
     ./Autosort_root run_number
+    
+Otherwise, you can run by typing "xia4ids" followed by the name of your config file and calibration file [optional] :
+
+    xia4ids conf/config_mandela cal/first.cal
 
 **Step 5.**	To look at histograms and fit peaks with GRSISort [see https://github.com/UWCNuclear/UbuntuSetUp]:
 
