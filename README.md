@@ -63,7 +63,7 @@ The .ldf file is created in the same directory.
 
 **Step 4.**	To run, go to the xia4mandela directory and type "xia4ids" followed by the name of your config file and calibration file [optional] :
 
-    xia4ids config_file calibrationFile
+    xia4ids conf/config_mandela cal/first.cal
     
 You can also run the Autosort_root script by giving it the run number to sort (first, give it permission to excute with "chmod +x Autosort_root") : 
 
