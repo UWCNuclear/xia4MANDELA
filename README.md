@@ -88,15 +88,9 @@ Check trace length
 
 Check the time gate in our configuration file for xia4ids 
 
-Check the effect of "Fold" in config file
+Look into "Correlation mode", what is it? Is it coincidences?? What are the .txt files produced?
 
-Look into "Correlation mode", what is it? Is it coincidences??
-
-What are the .txt files produced?
-
-Look into sorting error:
-
-XiaListModeDataDecoder::ReadBuffer : Eventlength (91) does not correspond to header length (4) and trace length (16383)
+Look into sorting error: XiaListModeDataDecoder::ReadBuffer : Eventlength (91) does not correspond to header length (4) and trace length (16383)
 
 In src/Unpacker.cpp:
 
