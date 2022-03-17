@@ -75,7 +75,19 @@ Otherwise, you can run by typing "xia4ids" followed by the name of your config f
     
 
 ***Notes:*** Singles histograms are defined in xia4ids/inc/define_root.hh and filled in xia4ids/inc/read_ldf.hh
- 
+
+**Run008 from our XIA:**
+
+hstats showing data in channel 0 only, not in channel 1
+
+Multiplicity from 1 to 2 with Fold = 1, Fold = 2 changes Multiplicity tree to 2 only :-)
+
+**Run145 from IDS:**
+
+hstats from 1 to 33
+
+Multiplicity from 0 to 7 with Fold = 1, Fold = 4 doesn't change Multiplicity tree?? Changing run_unit doesn't change Timestamp tree?? No .txt files are created when uncommenting coincidences??
+
 ***Check list:***
 
 Check that the Run008 sorted with xia4ids is the same as from poll2 ROOT histograms. If possible?
@@ -98,5 +110,13 @@ In src/Unpacker.cpp:
         // One last check to ensure event length matches what we think it
         // should be.
         if (traceLength / 2 + headerLength != eventLength) {
+
+***Done!:***
+
+ERROR: In configuration file 'conf/config_root_online'. Dettypes=1, Modules=0: In read_conf.hh, line 163: Module numbering starts from 0, therefore when using only 1 module, "modules" = 0 and xia4ids doesn't sort. We are able to go around it by keeping a spare line.
+
+Check if we need to switch detector type from crystal (1) to beta (3) for your NaI(Tl): It looks like the detector type number is only used to group the entries
+
+
 
 
