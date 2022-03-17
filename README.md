@@ -76,3 +76,33 @@ You can also run the Autosort_root script by giving it the run number to sort (f
 
 ***Notes:*** Singles histograms are defined in xia4ids/inc/define_root.hh and filled in xia4ids/inc/read_ldf.hh
  
+***Check list:***
+
+Check that the Run008 sorted with xia4ids is the same as from poll2 ROOT histograms. If possible?
+
+Check the time units on our XIA/POLL2 (us?)
+
+Check if there is a multiplicity=2 condition on our XIA/POLL2? Are singles collected?
+
+Check trace length
+
+Check the time gate in our configuration file for xia4ids 
+
+Check the effect of "Fold" in config file
+
+Look into "Correlation mode", what is it? Is it coincidences??
+
+What are the .txt files produced?
+
+Look into sorting error:
+
+XiaListModeDataDecoder::ReadBuffer : Eventlength (91) does not correspond to header length (4) and trace length (16383)
+
+In src/Unpacker.cpp:
+
+        // Sanity check for event length (formula in PIXIE manual)
+        // One last check to ensure event length matches what we think it
+        // should be.
+        if (traceLength / 2 + headerLength != eventLength) {
+
+
