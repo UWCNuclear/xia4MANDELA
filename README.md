@@ -28,7 +28,7 @@ POLL2 will then display the run number, e.g. "Run 1 started on Monday March 14 1
     
 The .ldf file is created in the same directory.    
       
-# How to install xia4ids
+# How to install xia4ids on Ubuntu
 
 **Step 1.**	To download xia4ids, paste the following line in your terminal:
 
@@ -45,6 +45,8 @@ The .ldf file is created in the same directory.
 **Step 4.**	To compile, go to ~/xia4ids/ and type:
 
     make
+    
+(On Centos, you might need to add "-ltbb" in the Makefile at the end of line 21.)
    
 # How to create histograms with xia4ids at MANDELA
 
