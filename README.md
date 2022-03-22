@@ -1,6 +1,6 @@
 # Documentation
 
-XIA Pixie-16 digitizer at MANDELA manual: Attached above :-)
+PASS instructions from JJ and XIA Pixie-16 digitizer at MANDELA manual: Attached above :-)
 
 XIA Pixie-16 digitizer 2018 manual: https://www.xia.com/wp-content/uploads/2018/12/Pixie16_UserManual.pdf
 
