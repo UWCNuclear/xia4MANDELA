@@ -10,7 +10,7 @@
 
 - [How to create histograms and matrices with histo_ldf](https://github.com/UWCNuclear/xia4mandela#how-to-create-histograms-andmatrices-with-histo_ldf)
 
-- [ROOT and GRSISort tips!](https://github.com/UWCNuclear/xia4mandela#ROOT-and-GRSISort-tips!)
+- [ROOT and GRSISort tips!](https://github.com/UWCNuclear/xia4mandela#ROOT-and-GRSISort-tips)
 
 # Documentation
 
@@ -104,16 +104,15 @@ To run both xia4ids and histo_ldf, edit the run numbers in the attached script R
 
 # ROOT and GRSISort tips!
 
-- To see what is inside a ROOT file, type ".ls" in GRSISort
-- To look at raw ROOT trees, type "new TBrowser"
-- To plot TH1 histograms, type:
-    "histo->Draw()"
-- To fit a peak, click on the histogram on the left and right of the peak, and hit "f". *Practical video*: https://www.youtube.com/watch?v=OG-s4FhOMIk
+- To see what is inside a ROOT file, type: .ls
+- To look at raw ROOT trees, type: new TBrowser
+- To plot TH1 histograms, type: histo->Draw()
+- To fit a peak in GRSISort, click on the histogram on the left and right of the peak, and hit "f". *Practical video*: https://www.youtube.com/watch?v=OG-s4FhOMIk
 - To plot TH2 matrices, type "matrix->Draw("colz")" and hit "l" (like log) to display the z-axis on log scale.
-- To project TH2 matrices on the x-axis, type "matrix->ProjectionX()->Draw("colz")"
-- To project a specific bin from TH2 matrices on the x-axis, type "matrix->ProjectionX("px",1,1)->Draw("colz")"
-- To project TH2 matrices on the y-axis, type "matrix->ProjectionY()->Draw("colz")"
-- To gate on TH2 matrices and do background subtraction in GRSISort, type "new TBGSubtraction(matrix)"
+- To project TH2 matrices on the x-axis, type: matrix->ProjectionX()->Draw("colz")
+- To project a specific bin from TH2 matrices on the x-axis, type: matrix->ProjectionX("px",1,1)->Draw("colz")
+- To project TH2 matrices on the y-axis, type: matrix->ProjectionY()->Draw("colz")
+- To gate on TH2 matrices and do background subtraction in GRSISort, type: new TBGSubtraction(matrix)
 
 
 ***Notes:***
