@@ -8,7 +8,9 @@
 
 - [How to create ROOT Trees with xia4ids](https://github.com/UWCNuclear/xia4mandela#how-to-create-ROOT-trees-with-xia4ids)
 
-- [How to create histograms and matrices with histo_ldf](https://github.com/UWCNuclear/xia4mandela#how-to-create-histograms-andmatrices-with-histo-ldf)
+- [How to create histograms and matrices with histo_ldf](https://github.com/UWCNuclear/xia4mandela#how-to-create-histograms-andmatrices-with-histo_ldf)
+
+- [ROOT and GRSISort tips!](https://github.com/UWCNuclear/xia4mandela#ROOT-and-GRSISort-tips!)
 
 # Documentation
 
@@ -20,7 +22,7 @@ PAASS and poll2 acquisition codes for Pixie-16 and instructions from JJ: https:/
 
 ISOLDE Decay Station code to convert the raw data produced by the Pixie-16 digitizers into ROOT format : https://github.com/rlica/xia4ids
 
-#  How to acquire data with POLL2
+#  How to acquire data with POLL2 in list mode
 
 **Step 1.** Place the .set parameter file (example attached above) in the "acq" directory.
 
@@ -81,7 +83,7 @@ Otherwise, you can run by typing "xia4ids" followed by the name of your config f
 
     xia4ids conf/config_mandela cal/first.cal
 
-**Step 5.**	To look at histograms and fit peaks with GRSISort [see https://github.com/UWCNuclear/UbuntuSetUp]:
+**Step 5.**	To look at histograms and fit peaks with GRSISort [see tips below and https://github.com/UWCNuclear/UbuntuSetUp]:
 
     grsisort -l RunXXX.root
     
@@ -99,6 +101,20 @@ Otherwise, you can run by typing "xia4ids" followed by the name of your config f
 To run both xia4ids and histo_ldf, edit the run numbers in the attached script Run_ldf.sh:
 
     ./Run_ldf.sh
+
+# ROOT and GRSISort tips!
+
+- To see what is inside a ROOT file, type ".ls" in GRSISort
+- To look at raw ROOT trees, type "new TBrowser"
+- To plot TH1 histograms, type:
+    "histo->Draw()"
+- To fit a peak, click on the histogram on the left and right of the peak, and hit "f". *Practical video*: https://www.youtube.com/watch?v=OG-s4FhOMIk
+- To plot TH2 matrices, type "matrix->Draw("colz")" and hit "l" (like log) to display the z-axis on log scale.
+- To project TH2 matrices on the x-axis, type "matrix->ProjectionX()->Draw("colz")"
+- To project a specific bin from TH2 matrices on the x-axis, type "matrix->ProjectionX("px",1,1)->Draw("colz")"
+- To project TH2 matrices on the y-axis, type "matrix->ProjectionY()->Draw("colz")"
+- To gate on TH2 matrices and do background subtraction in GRSISort, type "new TBGSubtraction(matrix)"
+
 
 ***Notes:***
 
