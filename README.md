@@ -115,7 +115,7 @@ To run both xia4ids and histo_ldf, edit the run numbers in the attached script R
 - To gate on TH2 matrices and do background subtraction in GRSISort, type: new TBGSubtraction(matrix)
 
 
-***Notes:***
+# ***Notes:***
 
 **Run008 from our XIA:**
 
