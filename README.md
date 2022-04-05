@@ -94,6 +94,8 @@ Otherwise, you can run by typing "xia4ids" followed by the name of your config f
 
     g++ histo_ldf.cxx `root-config --cflags --libs` -O3 -o histo_ldf
 
+(On Centos, you might need to add "-ltbb" in the compilation line.)
+
 **Step 2.** To run histo_ldf on a single run, give it the ROOT file with the Tree from xia4ids:
 
     ./histo_ldf RunXXX.root
