@@ -110,7 +110,7 @@ To run both xia4ids and histo_ldf, edit the run numbers in the attached script R
 - To look at raw ROOT trees, type **new TBrowser**
 
 - To plot TH1 histograms, type **histo->Draw()**
-- To get rough energy labels, hit **s"".
+- To get rough energy labels, hit **s**.
 - To zoom in, click on the histogram on the left and right limits of the range you want to zoom, and hit **e**.
 - To fit a peak, click on the histogram on the left and right of the peak, and hit **f**. *Practical video*: https://www.youtube.com/watch?v=OG-s4FhOMIk
 - To remove all markers, hit **n**.
