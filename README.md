@@ -108,13 +108,21 @@ To run both xia4ids and histo_ldf, edit the run numbers in the attached script R
 
 - To see what is inside a ROOT file, type **.ls**
 - To look at raw ROOT trees, type **new TBrowser**
+
 - To plot TH1 histograms, type **histo->Draw()**
-- To fit a peak in GRSISort, click on the histogram on the left and right of the peak, and hit **f**. *Practical video*: https://www.youtube.com/watch?v=OG-s4FhOMIk
+- To get rough energy labels, hit **s"".
+- To zoom in, click on the histogram on the left and right limits of the range you want to zoom, and hit **e**.
+- To fit a peak, click on the histogram on the left and right of the peak, and hit **f**. *Practical video*: https://www.youtube.com/watch?v=OG-s4FhOMIk
+- To remove all markers, hit **n**.
+- To zoom out, hit **o**.
+
 - To plot TH2 matrices, type **matrix->Draw("colz")** and hit **l** (like log) to display the z-axis on log scale.
 - To project TH2 matrices on the x-axis, type **matrix->ProjectionX()->Draw("colz")**
 - To project a specific bin from TH2 matrices on the x-axis, type **matrix->ProjectionX("px",1,1)->Draw("colz")**
 - To project TH2 matrices on the y-axis, type **matrix->ProjectionY()->Draw("colz")**
 - To gate on TH2 matrices and do background subtraction in GRSISort, type **new TBGSubtraction(matrix)**
+
+- *More GRSISort tips*: https://github.com/GRIFFINCollaboration/GRSISort/wiki/Interactive-Analysis
 
 
 # ***Notes:***
