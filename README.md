@@ -143,24 +143,17 @@ Multiplicity from 0 to 7 with Fold = 1, Fold = 4 doesn't change Multiplicity tre
 
 Check if there is a multiplicity=2 condition on our XIA/POLL2? Are singles collected?
 
-Check trace length
-
 Check the time gate in our configuration file for xia4ids 
 
 Look into "Correlation mode", what is it? What are the .txt files produced?
-
-Look into sorting error: XiaListModeDataDecoder::ReadBuffer : Eventlength (91) does not correspond to header length (4) and trace length (16383)
-
-In src/Unpacker.cpp:
-
-        // Sanity check for event length (formula in PIXIE manual)
-        // One last check to ensure event length matches what we think it
-        // should be.
-        if (traceLength / 2 + headerLength != eventLength) {
 
 ***Done!:***
 
 ERROR: In configuration file 'conf/config_root_online'. Dettypes=1, Modules=0: In read_conf.hh, line 163: Module numbering starts from 0, therefore when using only 1 module, "modules" = 0 and xia4ids doesn't sort. We are able to go around it by keeping a spare line.
 
+Error when sorting files if the offset is set to 0.
+
 Check if we need to switch detector type from crystal (1) to beta (3) for your NaI(Tl): It looks like the detector type number is only used to group the entries
+
+The sorting error we had in March 2022 does not appear with the newly collected data, yay!: XiaListModeDataDecoder::ReadBuffer : Eventlength (91) does not correspond to header length (4) and trace length (16383) [Info in src/Unpacker.cpp]
 
