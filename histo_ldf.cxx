@@ -33,9 +33,9 @@ TList    *outlist = 0;
 
 // Histogram paramaters
 Int_t nchan       = 17;
-Double_t nbinsE   = 5000;
-Double_t lowE     = 0;
-Double_t highE    = 5000;
+Double_t nbinsE   = 1000;
+Double_t lowE     = 2;
+Double_t highE    = 4002;
 Double_t nbinsT   = 500;
 Double_t lowT     = -500;
 Double_t highT    = 500;
@@ -192,7 +192,7 @@ void MakeHistos(long maxEntries=0) {
               FillHist("TimeDiff_All","All Hit2 time - Hit1 time; Time Difference [4 ns]; Energy [keV]",  
               nbinsT, lowT, highT, (T_branch[0][hit2] - T_branch[0][hit1]), nbinsE, lowE, highE, E_branch[0][hit2]);
 
-//	    if(T_branch[0][hit2] != T_branch[0][hit1]) { // Maybe we need this to get rid of diagonal line at E1 = E2
+	    if(T_branch[0][hit2] != T_branch[0][hit1]) { // Maybe we need this to get rid of diagonal line at E1 = E2
 
               FillHistSym("Matrix_All","All Coincidence Matrix; Energy [keV]; Energy [keV]",
               nbinsE, lowE, highE, E_branch[0][hit1], nbinsE, lowE, highE, E_branch[0][hit2]);
@@ -216,7 +216,7 @@ void MakeHistos(long maxEntries=0) {
               FillHistSym("Matrix_Random","Random Background Coincidence Matrix; Energy [keV]; Energy [keV]",
               nbinsE, lowE, highE, E_branch[0][hit1], nbinsE, lowE, highE, E_branch[0][hit2]);
             } 
-//	  }
+	  }
         } // End hit2 loop
 		
     } // End hit1 loop
